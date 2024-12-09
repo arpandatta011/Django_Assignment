@@ -4,9 +4,9 @@
 ## Features
 ### Add new tasks with a title.
 ### View a list of all tasks.
-## Requirements
 
-## Before you begin, ensure you have the following installed on your system:
-### Python 3.8 or higher
+## Requirements
+Before you begin, ensure you have the following installed on your system:
+Python 3.8 or higher
 ### pip (Python package installer)
 ### Virtualenv (recommended)
