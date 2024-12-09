@@ -29,6 +29,12 @@ python manage.py migrate
 Start the Django development server:
 python manage.py runserver
 
+## Setting up the Django Project
+pip install django
+django-admin startproject todo_project
+cd todo_project
+python manage.py startapp todo
+
 ## Usage
 Add a New Task
 Navigate to the "Add Task" page by clicking the "Add a new task" link.
