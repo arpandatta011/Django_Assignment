@@ -30,10 +30,11 @@ Start the Django development server:
 python manage.py runserver
 
 ## Setting up the Django Project
-pip install django
-django-admin startproject todo_project
-cd todo_project
-python manage.py startapp todo
+
+1. pip install django
+2. django-admin startproject todo_project
+3. cd todo_project
+4. python manage.py startapp todo
 
 ## Usage
 Add a New Task
