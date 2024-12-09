@@ -28,3 +28,10 @@ python manage.py migrate
 5. Start the Development Server
 Start the Django development server:
 python manage.py runserver
+
+## Usage
+Add a New Task
+Navigate to the "Add Task" page by clicking the "Add a new task" link.
+Enter a task title in the input field and click "Add Task."
+View Tasks
+View the task list on the homepage.
