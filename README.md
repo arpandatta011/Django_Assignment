@@ -11,42 +11,20 @@ Python 3.8 or higher
 pip (Python package installer)
 Virtualenv (recommended)
 
-Setup Instructions
+## Setup Instructions
 Follow these steps to set up the project locally:
 
 1. Clone the Repository
-bash
-Copy code
 git clone https://github.com/<your-username>/django-todo-app.git
 cd django-todo-app
+
 2. Set Up a Virtual Environment
 Create and activate a virtual environment:
 
-bash
-Copy code
-# Create a virtual environment
-python -m venv venv
-
-# Activate the virtual environment
-# On Windows:
-venv\Scripts\activate
-# On macOS/Linux:
-source venv/bin/activate
-3. Install Dependencies
-Install the required packages:
-
-bash
-Copy code
-pip install -r requirements.txt
 4. Apply Migrations
 Run database migrations to set up the database:
-
-bash
-Copy code
 python manage.py migrate
+
 5. Start the Development Server
 Start the Django development server:
-
-bash
-Copy code
 python manage.py runserver
