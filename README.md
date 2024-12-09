@@ -1,12 +1,52 @@
 # Django To-Do List Application
-## A simple to-do list application built with Django that allows users to add tasks and view a list of tasks. This project demonstrates basic CRUD functionality with Django.
+A simple to-do list application built with Django that allows users to add tasks and view a list of tasks. This project demonstrates basic CRUD functionality with Django.
 
 ## Features
-### Add new tasks with a title.
-### View a list of all tasks.
+Add new tasks with a title.
+View a list of all tasks.
 
 ## Requirements
 Before you begin, ensure you have the following installed on your system:
 Python 3.8 or higher
-### pip (Python package installer)
-### Virtualenv (recommended)
+pip (Python package installer)
+Virtualenv (recommended)
+
+Setup Instructions
+Follow these steps to set up the project locally:
+
+1. Clone the Repository
+bash
+Copy code
+git clone https://github.com/<your-username>/django-todo-app.git
+cd django-todo-app
+2. Set Up a Virtual Environment
+Create and activate a virtual environment:
+
+bash
+Copy code
+# Create a virtual environment
+python -m venv venv
+
+# Activate the virtual environment
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+3. Install Dependencies
+Install the required packages:
+
+bash
+Copy code
+pip install -r requirements.txt
+4. Apply Migrations
+Run database migrations to set up the database:
+
+bash
+Copy code
+python manage.py migrate
+5. Start the Development Server
+Start the Django development server:
+
+bash
+Copy code
+python manage.py runserver
